@@ -1,0 +1,17 @@
+name: LinkotLogin
+main: cn.linkot.spigot.login.Main
+version: 0.1
+api-version: 1.12.2
+commands:
+  register:
+    aliases:
+      - "rg"
+    usage: "/register <密码> <重复密码>"
+    description: "注册账号"
+    permission-message: "§c你没有权限这样做"
+  login:
+    aliases:
+      - lg
+    usage: "/login <密码>"
+    description: "登录账号后解除限制"
+    permission-message: "§c你没有权限这样做"
